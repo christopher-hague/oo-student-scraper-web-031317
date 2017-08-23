@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    byebug (9.0.6)
     coderay (1.1.1)
     diff-lcs (1.2.5)
     method_source (0.8.2)
@@ -30,9 +31,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   nokogiri (= 1.6.6.2)
   pry
   rspec
 
 BUNDLED WITH
-   1.12.5
+   1.14.6
